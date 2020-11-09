@@ -1,0 +1,90 @@
+.create{
+    font-size:11.5px;
+}
+
+.button1{
+    display: flex;
+    background-color: red;
+    border: none;
+    width: 50%;
+    height: 40px;
+    outline:none;
+    border-radius: 10px;
+    color:white;
+    padding-top:7px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button1:focus{
+    outline: none;
+}
+
+.bold-color{
+    font-weight:bold;
+    color:gray;
+}
+.storetext1{
+    font-size:13.5px;
+    font-weight:bold;
+    color:red;
+}
+.storetext2{
+    font-size:12.5px;
+    font-weight:bold;
+    color:red;
+}
+
+.button4{
+    justify-content: center;
+    background-color:rgb(73, 73, 250);
+    border:none;
+    color:white;
+    width:90%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.button4:focus{
+    outline: none;
+}
+.button7{
+    justify-content: right;
+    background-color:red;
+    border:none;
+    color:white;
+    width:30%;
+    padding: 8px;    
+    border-radius: 10px;
+}
+
+.button7:focus{
+    outline: none;
+}
+
+.button8{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color:red;
+    border:none;
+    color:white;
+    font-size: 18px;
+    width:55%;
+    padding: 8px;    
+    border-radius: 10px;
+}
+
+.button8:focus{
+    outline: none;
+}
+
+.my-modal{
+    background-color: gray;
+    color:white;
+}
+
+.checkbox{
+    font-size: 11px;
+    font-weight: bold;
+}

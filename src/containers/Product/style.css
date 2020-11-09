@@ -1,0 +1,22 @@
+.line{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(213, 213, 213);
+}
+.line1{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(213, 213, 213);
+}
+.titlename{
+    color: red;
+}
+
+.brand{
+    font-size: 20px;
+}
+
+.navbar1{
+    color:white;
+    font-size: 20px;
+}

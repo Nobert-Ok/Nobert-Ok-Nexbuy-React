@@ -1,0 +1,105 @@
+
+
+
+
+.slide{
+     
+}
+
+.details{
+    margin-left: 25px;
+}
+
+.details div{
+    display: inline-block; 
+    padding: ;
+}
+
+.profile-pic{
+    top: 0 !important;
+    width: 30px;
+    height: 30px;
+}
+
+.profile-details{
+
+}
+
+.profile-details p{
+    padding: 1px !important;
+    margin: 1px !important;
+    font-size: 10px;
+}
+
+.bullet{
+    height: 15px;
+    width: 15px;
+}
+
+.para a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* Logo Section */
+.contain_logo{
+    /* margin-top: 202px; */
+    background-color: #f1f0f0;
+}
+
+.contain_logo a{
+    text-decoration: none;
+}
+
+/* Link section */
+ .links{
+
+}
+.contain_logo{
+    margin-top: 10px;
+}
+
+.logo{
+    width: 60px;
+    height: 65px;
+    padding: 10px;
+    padding-left: 0px !important;
+    margin-left: 25px;
+}
+
+.ul2{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.ul2 li{
+    display: flex;
+    padding: 5px 25px;
+}
+
+
+.ul2 li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: black;
+    padding:0px !important;
+    font-size: 11.5px;
+}  
+
+.ul2 li a:hover{
+    color: red;
+}
+
+/* Socials */
+.socials{
+    margin-left: 15px;
+    margin-right: 30px;
+}
+.socials a img{
+    margin: 8px 10px;
+    height: 22px;
+    width: 22px;
+}

@@ -1,0 +1,426 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* @font-face{
+    src: url(../fonts/Rene-Bieder-Milliard-Book.otf);
+    font-family: 'milliard';
+} */
+
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'milliard';
+}
+
+#header, #footer {
+	position:fixed;
+	width:100%;
+	top:0;
+    background:white;
+    
+}
+#header{
+    top:0;
+    width:100%;
+    height:15px !important;
+}
+
+#footer {
+    display: flex;
+	bottom:0;
+    top:auto;
+    box-shadow: 0px 0px 5px grey;
+    justify-content: center;
+    height:65px;
+}
+
+#content {
+	position: relative;;
+	bottom:40%;
+	width:100%;
+    overflow:auto;
+    z-index: -1;
+    margin-top: 46%;
+    margin-bottom: 20%;
+} 
+@media only screen and (min-width: 375px) {
+    #content {
+        margin-top: 42%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    #content {
+        margin-top: 53%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #content {
+        margin-top: 47%;
+    }
+}
+
+
+/* Styling the head class */
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
+    margin-top:30px;
+}
+
+.pic div{
+    display: inline-block;
+    padding: 0 5px;
+    justify-content: center;
+}
+
+
+
+.pics{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media (max-width: 375px) {
+    .modal .modal-huge {
+      max-width: 80% !important;
+      width: 80% !important;
+      margin:0 auto;
+    }
+}
+
+@media (min-width: 375px) {
+    .modal .modal-huge {
+      max-width: 80% !important;
+      width: 80% !important;
+      margin:0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For you elements */
+.element img{
+    display: inline-block;
+    padding: 3px 2px;
+    height: 100%;
+    width: 60%;
+}
+
+.element {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-color: none;
+}
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;
+} 
+
+a::-moz-focus-inner {
+  border: 0;
+}
+
+a:focus {
+  outline: none;
+}
+
+/* Section 3 */
+.sec3{
+    margin: 7px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.sec3 .card-header{
+    background: red !important;
+    color: white;
+    font-size: 12.5px;
+    letter-spacing: 1px;
+}
+
+.rounded{
+    box-shadow: 0px 1px 7px grey;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.sec3 #card{
+    border: 1px solid red;
+    /* height: 10rem !important; */
+    width: 7rem;
+}
+
+
+
+.sec3 #card img {
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
+
+.discount{
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    background-color: #FAEDED;
+    padding: 4px;
+    color: red;
+    width: 50%;
+    font-weight: bolder;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 10.5px;
+}
+
+.maincontainer{
+    overflow-x:scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-color: none;
+}
+
+.sec3 .contain{
+    margin: 7.5px;
+    margin-top: 15px;
+    margin-bottom: 8px !important;
+    display: inline-block !important;
+}
+.sec3 .contain a{
+    text-decoration: none;
+}
+
+
+.sec3 .contain a:focus{
+    text-decoration: none;
+}
+
+.sec3 .card-body{
+    margin: 9px !important;
+    padding: 0px !important;
+    font-size: 11.5px;
+    left: 0px;
+    color: black;
+}
+
+.sec3 .card-body p{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 11.5px;
+    left: 0px;
+    color: black;
+}
+.card-body #text{
+    margin-bottom: 5px !important;
+}
+
+.naira{
+    text-decoration: line-through;
+    color: #EEEEEE;
+    margin-left: 10px;
+}
+
+/* Styling the section 4 */
+.sec4{
+    margin:15px 9px;
+}
+
+.sec4 .contain{
+    margin-left: 3px;
+    margin-bottom: 8px;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec4 .contain a{
+    text-decoration: none;
+}
+
+
+.sec4 .contain a:focus{
+    text-decoration: none;
+}
+
+
+
+.sec4 #card{
+    border: 1px solid #f6f5f5;
+    width: 9rem;
+    padding-bottom: 5px !important;
+
+    /* height: 13rem; */
+
+}
+
+.sec4 #card img {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.sec4 .card-body{
+    margin: 4px !important;
+    padding: 0px !important;
+    font-size: 11.5px;
+    left: 0px;
+    color: black;
+}
+
+.sec4 .card-body p{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 11.5px;
+    left: 0px;
+    color: black;
+}
+
+
+
+
+
+/* Media Screens */
+
+@media only screen and  (min-width: 375px){
+
+    /* section 4 */
+    .sec4{
+        margin:15px 0px;
+    }
+    
+    .sec4 .contain{
+        margin-left: 9px;
+        margin-bottom: 15px;
+    }
+
+    .sec4 #card{
+        border: 1px solid #f6f5f5;
+        width: 12rem;
+
+    }
+}
+
+@media only screen and  (max-width: 375px){
+    /* section 4 */
+    .sec4{
+        margin:15px 4px;
+    }
+    .sec4 .contain{
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+
+    .sec4 #card{
+        width: 11rem;
+    }
+}
+
+@media only screen and  (max-width: 360px){
+
+    /* section 4 */
+    .sec4{
+        margin:15px 2px;
+    }
+    
+    .sec4 .contain{
+        margin-left: 11px;
+        margin-bottom: 15px;
+    }
+
+    .sec4 #card{
+        border: 1px solid #f6f5f5;
+        width: 10rem;
+
+    } 
+}
+
+@media only screen and  (max-width: 320px){
+
+    /* section 4 */
+    .sec4{
+        margin:15px 2px;
+    }
+    
+    .sec4 .contain{
+        margin-left: 9.5px;
+        margin-bottom: 15px;
+    }
+
+    .sec4 #card{
+        border: 1px solid #f6f5f5;
+        width: 9rem;
+
+    } 
+}
+
+
+
+
+
+

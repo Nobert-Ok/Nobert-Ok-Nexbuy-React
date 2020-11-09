@@ -1,0 +1,106 @@
+.navbar{
+    background-color: red;
+    height: 150px;
+    position: relative;
+}
+
+#edit a{
+    color: red;
+    font-size: 16.5px;
+}
+#edit .pencil{
+    width:20px;
+    height:20px;
+}
+
+.profile{
+    height: 110px;
+    max-width: 110px;
+    top: -45%;
+    position: absolute;
+    z-index: 1;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.button9{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color:#ffdfdf;
+    border:none;
+    color:red;
+    font-size: 13px;
+    font-weight: bold;
+    width:85%;
+    padding: 8px;    
+    border-radius: 10px;
+}
+.button10{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color:red;
+    border:none;
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+    width:65%;
+    padding: 8px;    
+    border-radius: 10px;
+}
+
+.button9:focus{
+    outline: none;
+}
+
+.icons{
+    height: 17px;
+    width: 17px;
+}
+.arrow{
+    height: 17px;
+    width: 15px;
+}
+
+.line2{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: grey;
+    width: 85%;
+    border: 0.1px solid rgb(255, 233, 233);
+    margin:0 auto;
+}
+
+.words{
+    color: black;
+    text-decoration: none !important;
+    outline: none;
+    font-size: 16px;
+}
+.words:active{
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+.words:focus{
+    color: black;
+    outline: none;
+}
+
+.pencil-text{
+    color: red;
+    font-size: 16.5px;
+}
+.pencil{
+    width:20px;
+    height:20px;
+}
+
+.graytext{
+    color: grey;
+    font-weight: bold;
+}
